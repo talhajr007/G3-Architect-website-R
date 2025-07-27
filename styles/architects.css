@@ -147,19 +147,25 @@ main > section {
     font-weight: 600;
     margin-top: 10px;
 }
+.fact-description{
+    max-width: 540px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,  .nav-links, .teams {
         flex-direction: column;
     }
 
-    .team-img-container{
+    .team-img-container, .facts-container {
         grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
     }
     .our-features{
         margin-left: 20px;
     }
-    
+    .facts-container{
+        justify-items: center;
+    }
 }
 
 /* medium size device */
