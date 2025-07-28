@@ -150,10 +150,6 @@ main > section {
     font-weight: 700;
 }
 
-.featured-architect img {
-    width: 100%;
-}
-
 .feature-card .feature-tile{
     font-size: 1.25rem;
     font-weight: 600;
@@ -203,6 +199,24 @@ main > section {
 .sponsor-companies img {
      filter: grayscale(100%);
 }
+/* footer stated */
+footer{
+    margin-top: 130px;
+}
+footer div {
+    width: 1440px;
+    height: 100px;
+    background-color: rgba(255, 244, 231, 1.00);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+    .footer-text {
+        font-size: 1.25rem;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,  
@@ -233,6 +247,12 @@ main > section {
         justify-items: center;
         gap: 50px;
     }
+    .featured-architect img {
+    width: 100%;
+    }
+    footer div {
+        width: 100%;
+    }
 }
 
 /* medium size device */
@@ -253,4 +273,11 @@ main > section {
         margin-top: 20px;
         margin-left: 20px;
     }
+    .featured-architect img {
+    width: 100%;
+    }
+    footer div {
+        width: 100%;
+    }
+
 }
